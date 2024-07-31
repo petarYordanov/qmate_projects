@@ -2,6 +2,14 @@
 
 Use SAP's test framework Qmate Service for UI automation testing with Page Object Model implementation with fluent interfaces
 
+# Insights
+Page Object Model has a BasePage, which contains simplified functions from Qmate's api, extended by the BmiPage
+https://github.com/petarYordanov/qmate_projects/tree/main/test/pom
+
+Spec file contains the instance of the BmiPage and uses it's functions:
+https://github.com/petarYordanov/qmate_projects/blob/main/test/specs/bmi.spec.js
+
+
 ## Installation
 
 First initialize node 
