@@ -25,7 +25,7 @@ describe("BMI page tests", function () {
 
 
           
-    it("Step 01: BMI for Obesity", async function () {
+    it("Step 02: BMI for Obesity", async function () {
       
 
       await common.navigation.navigateToUrl(util.browser.getBaseUrl());
